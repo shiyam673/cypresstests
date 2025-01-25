@@ -10,7 +10,7 @@ test('Type name into the text field with id "shub18"', async t => {
     await t
         .expect(textField.exists).ok('Text field does not exist')  // Check if the text field exists
         .expect(textField.visible).ok('Text field is not visible')  // Check if the text field is visible
-
+console.log('from cyp1')
         // Type your name into the text field
         .typeText(textField, 'Shubham')  // Type "Shubham" into the field
 
